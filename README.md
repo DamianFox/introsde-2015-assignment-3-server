@@ -18,7 +18,7 @@ In this assignment we have to provide a WSDL service, which manages People's Hea
 * Go to the project folder 
 * Type `ant run`
 
-### WSDL Functions handle by the server:
+### WSDL Functions handled by the server:
 
 * readPersonList()
 * readPerson(Long id)
