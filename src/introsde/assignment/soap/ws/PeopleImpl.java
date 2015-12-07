@@ -71,8 +71,6 @@ public class PeopleImpl implements People {
 	@Override
 	public List<HealthMeasureHistory> readPersonHistory(int id, String measureType) {
 		List<HealthMeasureHistory> measureHistories = HealthMeasureHistory.getAllByPerson(id, measureType);
-        /*if (measureHistories == null)
-            throw new RuntimeException("Get: HealthMeasureHistory with " + id + " not found");*/
         return measureHistories;
 	}
 	
