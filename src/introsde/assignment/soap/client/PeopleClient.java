@@ -19,7 +19,7 @@ public class PeopleClient{
     		System.out.println("ERROR --> " + e);
     	}
     	
-    	URL url = new URL("http://10.230.203.144:6900/ws/people?wsdl");
+    	URL url = new URL("http://192.168.1.3:6900/ws/people?wsdl");
         //1st argument service URI, refer to wsdl document above
         //2nd argument is service name, refer to wsdl document above
         QName qname = new QName("http://ws.soap.assignment.introsde/", "PeopleService");
@@ -63,7 +63,7 @@ public class PeopleClient{
         
         HealthProfile hp = new HealthProfile();
         hp.setMeasure("weight");
-        hp.setValue(75);
+        hp.setValue("75");
         people.savePersonMeasure(6, hp);
         
         
