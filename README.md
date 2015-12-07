@@ -1,4 +1,4 @@
-# introsde-2015-assignment-3
+# Introsde 2015 Assignment 3 - Server
 
 **Introduction to Service Design and Engineering | University of Trento**
 
@@ -18,7 +18,7 @@ In this assignment we have to provide a WSDL service, which manages People's Hea
 * Go to the project folder 
 * Type `ant run`
 
-#### WSDL Functions handle by the server:
+### WSDL Functions handle by the server:
 
 * readPersonList()
 * readPerson(Long id)
