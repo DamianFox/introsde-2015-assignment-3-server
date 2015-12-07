@@ -118,7 +118,7 @@ public class PeopleImpl implements People {
     			isPresent = true;
     			HealthMeasureHistory hmhNew = new HealthMeasureHistory();
     			
-    			hmhNew.setValue(Integer.toString(singleHealthProfile.getValue()));
+    			hmhNew.setValue(singleHealthProfile.getValue());
     			DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
     			Date date = new Date();
     			timestamp = dateFormat.format(date);

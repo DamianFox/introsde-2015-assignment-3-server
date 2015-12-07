@@ -34,7 +34,7 @@ public class HealthProfile implements Serializable {
 	private int idMeasure;
 
 	@Column(name = "value")
-	private int value;
+	private String value;
 
 	@Column(name = "measure")
 	private String measure;
@@ -65,11 +65,11 @@ public class HealthProfile implements Serializable {
 		this.idMeasure = idMeasure;
 	}
 
-	public int getValue() {
+	public String getValue() {
 		return this.value;
 	}
 
-	public void setValue(int value) {
+	public void setValue(String value) {
 		this.value = value;
 	}
 

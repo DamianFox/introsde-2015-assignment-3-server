@@ -140,7 +140,7 @@ public class Person implements Serializable {
 		p = em.merge(p);
 		tx.commit();
 		LifeCoachDao.instance.closeConnections(em);
-		System.err.println("Person updated");
+		System.out.println("Person updated");
 		return p;
     }
 
